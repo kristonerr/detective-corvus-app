@@ -1,4 +1,4 @@
 kivy>=2.3.0
-buildozer>=1.5.0
+buildozer>=1.6.0
 cython
 setuptools>=70.0
