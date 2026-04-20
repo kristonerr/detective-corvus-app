@@ -13,7 +13,7 @@ jobs:
     - uses: actions/setup-python@v5
       with:
         python-version: 3.12
-    - run: pip install setuptools kivy buildozer
+    - run: pip install -r requirements.txt
     - run: buildozer android debug
     - uses: actions/upload-artifact@v4
       with:
