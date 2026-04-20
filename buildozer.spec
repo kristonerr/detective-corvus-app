@@ -15,6 +15,7 @@ orientation = portrait
 fullscreen = 1
 
 android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
+android.accept_licenses = android-sdk-license,android-sdk-preview-license
 
 [buildozer]
 
